@@ -1,0 +1,32 @@
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :         gdp                Number of Observations:          20
+Mean dependent var  :    465.2957                Number of Variables   :           3
+S.D. dependent var  :     88.1276                Degrees of Freedom    :          17
+Pseudo R-squared    :      0.0759
+Spatial Pseudo R-squared:  0.0001
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       634.90464       782.77143         0.81110         0.41731
+                 pop         0.06265         1.18376         0.05292         0.95779
+               W_gdp        -0.37193         1.56023        -0.23838         0.81159
+------------------------------------------------------------------------------------
+Instrumented: W_gdp
+Instruments: W_pop
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                              DF         VALUE           PROB
+Anselin-Kelejian Test             1          0.001           0.9786
+
+SPATIAL LAG MODEL IMPACTS
+Impacts computed using the 'simple' method.
+            Variable         Direct        Indirect          Total
+                 pop         0.0626         -0.0170          0.0457
+================================ END OF REPORT =====================================

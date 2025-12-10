@@ -1,0 +1,20 @@
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: GM SPATIALLY WEIGHTED LEAST SQUARES
+------------------------------------------------------
+Data set            :     unknown
+Weights matrix      :     unknown
+Dependent Variable  :         gdp                Number of Observations:          20
+Mean dependent var  :    465.2957                Number of Variables   :           2
+S.D. dependent var  :     88.1276                Degrees of Freedom    :          18
+Pseudo R-squared    :      0.0007
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       460.42381       126.33502         3.64447         0.00027
+                 pop         0.06784         1.20477         0.05631         0.95510
+              lambda        -0.36585    
+------------------------------------------------------------------------------------
+================================ END OF REPORT =====================================

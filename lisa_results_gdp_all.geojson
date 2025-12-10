@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "lisa_results_gdp_all",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "city": "城市1", "local_moran": 0.24602782229179421, "p_value": 0.126, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 113.745401188473622, 36.118528947223794 ] } },
+{ "type": "Feature", "properties": { "city": "城市2", "local_moran": 0.17298291338142177, "p_value": 0.32, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 119.507143064099154, 31.394938606520419 ] } },
+{ "type": "Feature", "properties": { "city": "城市3", "local_moran": -0.74638048130834567, "p_value": 0.167, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 117.319939418114046, 32.921446485352185 ] } },
+{ "type": "Feature", "properties": { "city": "城市4", "local_moran": -0.31468859732916032, "p_value": 0.337, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 115.98658484197037, 33.663618432936914 ] } },
+{ "type": "Feature", "properties": { "city": "城市5", "local_moran": 0.21091960676602248, "p_value": 0.263, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 111.560186404424371, 34.560699842170358 ] } },
+{ "type": "Feature", "properties": { "city": "城市6", "local_moran": -0.63521643732473465, "p_value": 0.326, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 111.55994520336202, 37.851759613930135 ] } },
+{ "type": "Feature", "properties": { "city": "城市7", "local_moran": -0.50891359132187719, "p_value": 0.235, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 110.580836121681997, 31.996737821583597 ] } },
+{ "type": "Feature", "properties": { "city": "城市8", "local_moran": 0.32245131213537609, "p_value": 0.154, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 118.66176145774935, 35.142344384136116 ] } },
+{ "type": "Feature", "properties": { "city": "城市9", "local_moran": 0.060972592031553641, "p_value": 0.442, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 116.011150117432095, 35.924145688620428 ] } },
+{ "type": "Feature", "properties": { "city": "城市10", "local_moran": -0.30657962146670653, "p_value": 0.173, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 117.080725777960453, 30.464504127199977 ] } },
+{ "type": "Feature", "properties": { "city": "城市11", "local_moran": 0.034505909658890443, "p_value": 0.419, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 110.205844942958024, 36.075448519014387 ] } },
+{ "type": "Feature", "properties": { "city": "城市12", "local_moran": -0.013260777786259375, "p_value": 0.312, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 119.699098521619945, 31.705241236872915 ] } },
+{ "type": "Feature", "properties": { "city": "城市13", "local_moran": 0.071055539906529019, "p_value": 0.387, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 118.324426408004214, 30.650515929852794 ] } },
+{ "type": "Feature", "properties": { "city": "城市14", "local_moran": 0.051530724182649291, "p_value": 0.374, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 112.123391106782762, 39.488855372533337 ] } },
+{ "type": "Feature", "properties": { "city": "城市15", "local_moran": 0.028339376121030595, "p_value": 0.324, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 111.818249672071005, 39.656320330745594 ] } },
+{ "type": "Feature", "properties": { "city": "城市16", "local_moran": -1.2649999412483277, "p_value": 0.081, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 111.834045098534332, 38.083973481164612 ] } },
+{ "type": "Feature", "properties": { "city": "城市17", "local_moran": -0.13732819005933064, "p_value": 0.397, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 113.042422429595376, 33.046137691733705 ] } },
+{ "type": "Feature", "properties": { "city": "城市18", "local_moran": -0.49482020994711984, "p_value": 0.358, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 115.247564316322382, 30.976721140063837 ] } },
+{ "type": "Feature", "properties": { "city": "城市19", "local_moran": 0.81321287532207687, "p_value": 0.011, "significant": true, "cluster_type": "HH" }, "geometry": { "type": "Point", "coordinates": [ 114.319450186421165, 36.842330265121568 ] } },
+{ "type": "Feature", "properties": { "city": "城市20", "local_moran": -0.025797426004184727, "p_value": 0.153, "significant": false, "cluster_type": "不显著" }, "geometry": { "type": "Point", "coordinates": [ 112.912291401980426, 34.401524937396012 ] } }
+]
+}

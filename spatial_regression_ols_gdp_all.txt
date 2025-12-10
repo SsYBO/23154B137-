@@ -1,0 +1,38 @@
+REGRESSION RESULTS
+------------------
+
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :     unknown
+Weights matrix      :        None
+Dependent Variable  :         gdp                Number of Observations:          20
+Mean dependent var  :    465.2957                Number of Variables   :           2
+S.D. dependent var  :     88.1276                Degrees of Freedom    :          18
+R-squared           :      0.0007
+Adjusted R-squared  :     -0.0548
+Sum squared residual:      147454                F-statistic           :      0.0133
+Sigma-square        :    8191.896                Prob(F-statistic)     :      0.9095
+S.E. of regression  :      90.509                Log likelihood        :    -117.434
+Sigma-square ML     :    7372.707                Akaike info criterion :     238.868
+S.E of regression ML:     85.8645                Schwarz criterion     :     240.860
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       450.48686       130.03714         3.46429         0.00277
+                 pop         0.14266         1.23745         0.11529         0.90949
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER          12.772
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2          1.170           0.5572
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test                1          0.007           0.9326
+Koenker-Bassett test              1          0.015           0.9036
+================================ END OF REPORT =====================================
